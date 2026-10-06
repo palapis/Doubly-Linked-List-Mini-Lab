@@ -4,60 +4,56 @@
 
 ---
 
-### Name: Naufal Nafiz Fathurrahman
-**NIM:** 103032500150
-**Role: Tester**
-**Main Contribution:** Tested the full DLL implementation across all 9 tasks, wrote test scripts for forward/backward traversal, insert, and delete operations, and identified the prev-pointer bug in insertAfter.
+### Name: Naufal Nafiz Fatturahman
+### NIM: 103032500150
 
-**What I learned about next and prev:**
-- `next` pointer moves forward in the list (head direction)
-- `prev` pointer moves backward in the list (tail direction)
-- Both must be updated during insert/delete to avoid broken links
+**My main contribution:**  
+I contributed to updating the experiment log, documenting the traversal and operations, adding new images and outputs, and improving the project documentation.
 
-**The hardest part:**
-Writing test cases that cover all edge cases — head insertion, tail deletion, and empty list insertion required careful pointer tracing to avoid false positives.
+**What I learned about next and prev:**  
+I learned how the `next` and `prev` pointers work in a doubly linked list and how they are used to traverse the list in both forward and backward directions.
 
-**What AI helped me with:**
-AI provided the test script scaffolding and helped me catch a null-pointer dereference in my deleteNode test case, I verified by running the tests with valgrind.
+**The hardest part:**  
+The hardest part was understanding the traversal process and making sure the `next` and `prev` pointers were correctly connected during different operations.
 
-**What I changed or fixed myself:**
-- Designed test scripts for all 9 tasks with expected vs, actual output comparison
-- Traced the prev pointer bug in insertAfter via test execution
-- Added edge case tests for empty list, single node, and two-node scenarios
+**What AI helped me with:**  
+AI helped me understand doubly linked list operations, explain the traversal process, and improve the documentation and experiment log.
 
-**GitHub Issue / PR / Commit I contributed:**
-- Commit: "Add comprehensive test suite for DLL tasks 1-9"
-- Issue: "Bug: backward traversal breaks after insertion in insertAfter"
-- Issue: "Test coverage gaps in Tasks 4 and 6 edge cases"
+**What I changed or fixed myself:**  
+I updated the experiment log, added new traversal and operation results, added images and outputs, renamed the experiment log file to Markdown format, and updated the AI notes.
 
+**GitHub Issue / PR / Commit I contributed:**  
+- Update experiment log with new traversal and operations
+- Update experiment log with new images and outputs
+- Update and rename experiment-log.txt to experiment-log.md
+- Update experiment-log.txt
+- Update AI-NOTES.md
 ---
 
 ### Name: Gyio Rangga Satria Putra
-**NIM:** 103032500149
-**Role: Documenter**
-**Main Contribution:** Authored the user-facing README guide and example usage documentation for the DLL, created the step-by-step tutorial, and wrote the real-world example explaining how circular doubly linked lists are used in browsers.
+### NIM: 103032500149
 
-**What I learned about next and prev:**
-- `next` pointer links forward between nodes in the list
-- `prev` pointer links backward between nodes, allowing reverse traversal
-- In a circular DLL the last node's `next` points to head and head's `prev` points to the last node
+**My main contribution:**  
+I contributed to updating the README, correcting the task descriptions, updating the run-output, and improving the reflection documentation.
 
-**The hardest part:**
-Explaining the circular doubly linked list concept to someone who has never seen it before without overwhelming them with pointer diagrams. I had to simplify the real-world analogy to make it stick.
+**What I learned about next and prev:**  
+I learned how the `next` and `prev` pointers work in a doubly linked list and how they are used to move forward and backward between nodes.
 
-**What AI helped me with:**
-AI helped draft the README template and suggested a clearer phrasing for the circular wrap-around explanation. I rewrote the examples and verified the analogy against the code myself.
+**The hardest part:**  
+The hardest part was understanding the relationship between the `next` and `prev` pointers, especially when performing operations that change the connections between nodes.
 
-**What I changed or fixed myself:**
-- Wrote README with setup and usage instructions
-- Created a step-by-step tutorial covering all 9 tasks
-- Wrote a browser-history real-world example showing back/forward navigation
-- Added a quick reference guide for insert/delete operations
+**What AI helped me with:**  
+AI helped me understand doubly linked list concepts, check my implementation, explain errors, and improve the project documentation.
 
-**GitHub Issue / PR / Commit I contributed:**
-- Commit: "Add README with usage guide and 9-task tutorial"
-- Commit: "Add real-world browser history example"
-- Issue: "Docs: quick reference guide for insert/delete API is incomplete"
+**What I changed or fixed myself:**  
+I updated the README and run-output, corrected the task descriptions, updated the reflection, and removed unnecessary executable files from the repository.
+
+**GitHub Issue / PR / Commit I contributed:**  
+- Update README formatting for task descriptions
+- Update run-output.txt with new tasks and corrections
+- Update REFLECTION.md with contributions and fixes
+- Delete src/main.exe
+- Update README.md
 
 ---
 
