@@ -13,4 +13,4 @@
 **What We Changed:** Applied fix, recompiled, backward traversal now works correctly.
 
 ## Reflection
-We used AI to generate starter code and debug pointer bugs. We verified by compiling and running the program, then testing edge cases manually.
+We used AI to debug pointer bugs. We verified by compiling and running the program, then testing edge cases manually.
