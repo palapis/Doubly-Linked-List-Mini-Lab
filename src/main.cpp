@@ -106,10 +106,10 @@ int main() {
     dll.backward();
     cout << endl;
 
-    cout << "=== Task 5: Insert Song X between B and C ===" << endl;
+    cout << "=== Task 5: Insert Song X between C and D ===" << endl;
     cout << "Before: A <-> B <-> C <-> D <-> E" << endl;
-    dll.insertAfter("Song B", "Song X");
-    cout << "After: A <-> B <-> X <-> C <-> D <-> E" << endl;
+    dll.insertAfter("Song C", "Song X");
+    cout << "After: A <-> B <-> C <-> X <-> D <-> E" << endl;
     dll.forward();
     dll.backward();
     cout << endl;
