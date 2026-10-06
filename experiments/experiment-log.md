@@ -63,3 +63,20 @@ Experiment 8 - Break and Fix (Task 9)
 Bug: forgot to update prev pointer in insertAfter
 Result: backward traversal breaks at insertion point
 Fix: set newNode->prev = cur AND cur->next->prev = newNode
+
+
+---
+
+Experiment 9 - Insert Song Y (Pelapis)
+Before: A <-> B <-> C <-> D <-> E
+Operation: insertAfter("Song C", "Song Y")
+After: A <-> B <-> C <-> Y <-> D <-> E
+
+Forward: Song A Song B Song C Song Y Song D Song E
+Backward: Song E Song D Song Y Song C Song B Song A
+
+
+=== Pelapis Verification ===
+Insertion point: after Song C
+New node: Song Y
+Traversal check: forward and backward traversal are consistent
