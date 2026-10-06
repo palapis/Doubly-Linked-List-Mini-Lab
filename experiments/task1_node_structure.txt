@@ -1,0 +1,2 @@
+=== Task 1: Node Structure ===
+Doubly Linked List: Song A <-> Song B <-> Song C <-> Song D <-> Song E
