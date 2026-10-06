@@ -1,0 +1,42 @@
+=== Task 2: Create List (Song A - E) ===
+List: Forward: Song A Song B Song C Song D Song E 
+Backward: Song E Song D Song C Song B Song A 
+
+=== Task 3: Forward Traversal ===
+Q: Which pointer moves forward? next
+Forward: Song A Song B Song C Song D Song E 
+
+=== Task 4: Backward Traversal ===
+Q: Which pointer moves backward? prev
+Backward: Song E Song D Song C Song B Song A 
+
+=== Task 5: Insert Song X between B and C ===
+Before: A <-> B <-> C <-> D <-> E
+After: A <-> B <-> X <-> C <-> D <-> E
+Forward: Song A Song B Song X Song C Song D Song E 
+Backward: Song E Song D Song C Song X Song B Song A 
+
+=== Task 6: Delete Song C ===
+Before: A <-> B <-> X <-> C <-> D <-> E
+After: A <-> B <-> X <-> D <-> E
+Connections changed: B->next now points X, D->prev now points X
+Forward: Song A Song B Song X Song D Song E 
+Backward: Song E Song D Song X Song B Song A 
+
+=== Task 7: Real-World Example - Browser History ===
+Why DLL suitable? Forward/backward navigation needs bidirectional links.
+History: Forward: google.com youtube.com stackoverflow.com 
+Backward: stackoverflow.com youtube.com google.com 
+
+=== Task 8: Predict Before Running ===
+Given: A <-> B <-> C <-> D, delete C
+Prediction: A <-> B <-> D
+Forward: Song A Song B Song C Song D 
+Actual: Forward: Song A Song B Song D 
+Match prediction! C was removed, A->B->D
+
+=== Task 9: Break and Fix the Code ===
+Bug introduced: forgot to update prev pointer in insertAfter
+When inserting X after B, X->prev was not set, and C->prev still points B
+Result: backward traversal breaks at C (C->prev->data = B instead of X)
+Fix: set newNode->prev = cur AND cur->next->prev = newNode
