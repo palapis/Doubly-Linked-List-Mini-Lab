@@ -149,3 +149,5 @@ AI provided the initial code structure and diagnosed the prev pointer bug in ins
 - Commit: "Fix prev pointer bug in insertAfter"
 - Commit: "Add CMake build configuration"
 - Issue: "Bug: backward traversal breaks after insertion"
+
+- Issue #6: Investigated backward traversal and checked `prev` pointer behavior after insertion.
