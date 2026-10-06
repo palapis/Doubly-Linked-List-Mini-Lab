@@ -1,2 +1,8 @@
 === Task 1: Node Structure ===
 Doubly Linked List: Song A <-> Song B <-> Song C <-> Song D <-> Song E
+
+=== Experiment: Insert Song X ===
+Before: Song A <-> Song B <-> Song C <-> Song D <-> Song E
+After: Song A <-> Song B <-> Song X <-> Song C <-> Song D <-> Song E
+Forward: Song A Song B Song X Song C Song D Song E
+Backward: Song E Song D Song C Song X Song B Song A
