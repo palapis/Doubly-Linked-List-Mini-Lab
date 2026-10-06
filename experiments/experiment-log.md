@@ -63,3 +63,9 @@ Experiment 8 - Break and Fix (Task 9)
 Bug: forgot to update prev pointer in insertAfter
 Result: backward traversal breaks at insertion point
 Fix: set newNode->prev = cur AND cur->next->prev = newNode
+
+Experiment 9 - Matthew's Backward Traversal Verification
+Test: Insert Song X after Song B.
+Expected forward: Song A Song B Song X Song C Song D Song E
+Expected backward: Song E Song D Song C Song X Song B Song A
+Result: Both traversals should match the expected order.
