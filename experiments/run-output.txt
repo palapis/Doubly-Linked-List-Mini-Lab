@@ -1,3 +1,6 @@
+=== Task 1: Node Structure ===
+Node: Song A <-> Song B <-> Song C <-> Song D <-> Song E
+
 === Task 2: Create List (Song A - E) ===
 List: Forward: Song A Song B Song C Song D Song E 
 Backward: Song E Song D Song C Song B Song A 
