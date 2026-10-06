@@ -2,7 +2,7 @@
 
 **Kelompok:** 4 
 **Subject:** Struktur Data  
-**Students:** Naufal Nafiz Fathurrahman (103032500150), Gyio rangga satria putra (103032500149), Fazli Baktiadi (103032500153), Nigel William Pieters(103032540003), Matthew Glen Abram Pakpahan (103032500154)
+**Students:** Naufal Nafiz Fathurrahman (103032500150), Gyio rangga satria putra (103032500149), Fazli Baktiadi (103032500153), Nigel William Pieters (103032540003), Matthew Glen Abram Pakpahan (103032500154)
 ## Repository Structure
 ```
 doubly-linked-list/
