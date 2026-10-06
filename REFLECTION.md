@@ -52,9 +52,10 @@ I updated the README and run-output, corrected the task descriptions, updated th
 - Update README formatting for task descriptions
 - Update run-output.txt with new tasks and corrections
 - Update REFLECTION.md with contributions and fixes
+- Revise contributor reflections and documentation
+- Updated reflection entries for contributors, corrected names, and improved documentation
 - Delete src/main.exe
 - Update README.md
-
 ---
 
 ### Name: Fazli Baktiadi
