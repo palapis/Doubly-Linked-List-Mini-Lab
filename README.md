@@ -44,4 +44,5 @@ g++ -std=c++17 -o main src/main.cpp
 | Builder | Glen |
 | Tester | Nopal |
 | Reviewer | Nigel |
-| Documenter | Gyio | | Fazli |
+| Documenter | Gyio |
+| Documenter 2 | Fazli |
