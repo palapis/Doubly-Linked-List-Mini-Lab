@@ -59,32 +59,26 @@ I updated the README and run-output, corrected the task descriptions, updated th
 ---
 
 ### Name: Fazli Baktiadi
-**NIM:** 103032500153
-**Role: Documenter(2)**
-**Main Contribution:** Wrote technical documentation for the circular doubly linked list, described node structure, documented every function API, created a UML diagram of the DLL class, and maintained the experiment log.
-
-
-**What I learned about next and prev:**
-- `next` pointer moves forward in the list (head direction)
-- `prev` pointer moves backward in the list (tail direction)
-- Both must be updated during insert/delete to avoid broken links
-
+### NIM: 103032500153
+Role: Developer
+** Main Contribution:** Fixed the formatting in the student list section, improved the spacing in the student names section, and updated run-output.txt with new tasks and corrections.
+What I learned about next and prev:
+- next is used to move forward to the next element in the list.
+- prev is used to move backward to the previous element.
+- Both need to be handled correctly to keep the list structure working properly.
 **The hardest part:**
-Making sure documentation matches the actual implementation behavior exactly — the circular nature with sentinel head/tail made some edge cases tricky to describe accurately, especially the wrap-around cases.
-
+Finding the parts that caused the formatting and spacing issues was the hardest part. I had to make sure the changes improved the appearance without affecting the existing functionality.
 **What AI helped me with:**
-AI helped generate the UML diagram syntax for the DLL class, and helped verify my function API descriptions against the code. I cross-checked all descriptions manually.
-
+AI helped me understand the formatting issues, suggested possible fixes, and helped me check whether the changes were appropriate. I still reviewed and applied the changes myself.
 **What I changed or fixed myself:**
-- Wrote full documentation of node structure, function APIs, and usage examples
-- Created a UML diagram showing head/next/prev relationships
-- Maintained the experiment log with results for each of the 9 tasks
-- Added a real-world circular history use case (browser tabs)
-
+- Fixed the formatting in the student list section.
+- Improved the spacing in the student names section.
+- Updated run-output.txt with new tasks and corrections.
+- Checked the changes to make sure the output was clean and consistent.
 **GitHub Issue / PR / Commit I contributed:**
-- Commit: "Add UML diagram and API documentation for DLL"
-- Commit: "Document experiment log and results"
-- Issue: "Docs: need clearer description of head/tail sentinel node convention"
+- Commit: "Update project files and fixes"
+- Commit: "Improve formatting and output"
+- Commit: "Update documentation and corrections"
 
 
 ---
