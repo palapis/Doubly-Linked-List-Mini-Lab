@@ -74,3 +74,9 @@ After: A <-> B <-> C <-> Y <-> D <-> E
 
 Forward: Song A Song B Song C Song Y Song D Song E
 Backward: Song E Song D Song Y Song C Song B Song A
+
+
+=== Pelapis Verification ===
+Insertion point: after Song C
+New node: Song Y
+Traversal check: forward and backward traversal are consistent
